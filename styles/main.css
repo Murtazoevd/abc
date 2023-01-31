@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?<span>family=</span><span>Anton</span><span>&</span><span>family=</span><span>Open+Sans:wght@300</span><span>&</span><span>family=</span><span>Poppins:wght@100</span><span>&</span><span>family=</span><span>Roboto</span><span>&</span>display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+.container{
+    min-height: 100vh;
+}
+
+
+                                      /*        left menu          */
+
+
+.container .left{
+    position: fixed;
+    background-color: black;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(216, 216, 216);
+}
+
+.container .left img{
+    width: 200px;
+    height: 110px;
+}
+
+.container .left p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6px;
+    padding-left: 20px;
+    color: rgb(182, 180, 180);
+    font-weight: 800;
+}
+
+.container .left i{
+    font-size: 30px;
+    display: flex;
+    padding-left: 30px;
+    padding: 0 0 10px  30px;
+    cursor: pointer;
+}
+
+.container .left .icon{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 30px;
+    height: 130px;
+}
+
+.container .left .icon img{ 
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+}
+
+
+.container .left p:hover{
+    color: #fff;
+    transition: 1s all linear;
+}
+
+                                  /*               down                  */
+
+.container .down{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 13%;
+    bottom: 0;
+    background-color: #181818;
+    display: flex;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.container .down .inleft{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 20px; */
+    position: relative;
+    color: rgb(182, 180, 180);
+}
+
+.container .down .inleft img{
+    position: absolute;
+    left: 20px;
+    width: 55px;
+    height: 55px;
+    box-shadow: 0px 2px 2px  black;
+}
+
+.container .down .inleft .nick{
+    position: absolute;
+    top: 23px;
+}
+
+.container .down .inleft .name{
+    position: absolute;
+    top: 40px;
+    left: 90px;
+}
+
+.container .down .inleft #heart{
+    position: absolute;
+    right: 50px;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.container .down .inleft i{
+    position: absolute;
+    right: 20px;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.container .down .incenter{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10%;
+    color: rgb(182, 180, 180);
+}
+
+.container .down .incenter .icoon{
+    font-size: 30px;
+}
+
+.container .down .incenter input{
+    width: 90%;
+}
+
+.container .down .inright{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    font-size: 20px;
+    gap: 10px;
+    /* background-color: blue; */
+}
+
+                             /*                     right                             */
+.container .right{
+    width: 75%;
+    /* background-color: aqua; */
+    height: 200vh;
+    margin-left: 25%;
+}
+
+.container .right .nav{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .right .nav .nleft {
+    width: 8%;
+    display: flex;
+    height: 65%;
+    padding-top: 10px;
+    justify-content: space-between;
+    margin-left: 3%;
+}
+
+.container .right .nav .nleft i{
+    border-radius: 20px;
+    background-color: #505050;
+    color: #f1f1f1;
+    font-size: 30px;
+    cursor: no-drop;
+}
+
